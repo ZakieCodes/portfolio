@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Jost', sans-serif !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-dark-bg: #1f2125;
+  --color-accent-green: #00D26A; 
+}
+
+body {
+  @apply bg-[var(--color-dark-bg)] text-white;
+  font-family: 'Inter', sans-serif;
+}
