@@ -17,13 +17,13 @@ const Navbar = () => {
           <a href="#skills" className="text-slate-300 hover:text-[var(--color-accent-green)] transition">Skills</a>
           <a href="#projects" className="text-slate-300 hover:text-[var(--color-accent-green)] transition">Projects</a>
            <a href="#research" className="text-slate-300 hover:text-[var(--color-accent-green)] transition">Research</a>
-            <a href="#art" className="text-slate-300 hover:text-[var(--color-accent-green)] transition">art</a>
+            <a href="#art" className="text-slate-300 hover:text-[var(--color-accent-green)] transition">Art</a>
         </div>
 
         {}
         <div className="flex items-center gap-6">
           <a href="#contact" className="hidden md:block text-slate-300 font-medium hover:text-[var(--color-accent-green)] transition">
-            Let's Connect
+            Find me on
           </a>
           
           <div className="flex gap-4">
